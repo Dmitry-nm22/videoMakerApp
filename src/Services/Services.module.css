@@ -1,13 +1,19 @@
 .wraper{
     min-height: 100vh;
     background-color: rgba(51, 51, 51, 0.11);
+    text-align: center;
 }
 .wraper h1{
     margin: 0;
     padding-top: 80px;
 }
 .inner{
-    padding: 60px 50px 60px;
+    padding: 60px 111px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.innerTwo{
+    padding: 0px 111px 60px;
     display: flex;
     justify-content: space-between;
 }

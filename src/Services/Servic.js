@@ -1,22 +1,20 @@
 import React from 'react';
 import s from './Servic.module.css';
-import logo from '../img/service1.jpg';
 
 
 
 
-function Servic() {
+
+function Servic(props) {
     return (
         <div className={s.wraper}>
-            <img src={logo} alt="logo"/>
+            <div className={s.img}>
+                <img src={props.img} alt="logo"/>
+            </div>
+
             <div className={s.inner}>
-                <h1>Видео-рекламы</h1>
-                <p>
-                    Мы поможем вашему бизнесу стартовать: профессиональная видеосъёмка красивых рекламных и промо роликов,
-                    благодаря которым о вашем бренде или товаре узнают многие.
-                    Наши рекламные видео  набрают миллионные просмотры в социальных сетях.
-                    Позвольте нам сделать то же и для вас!
-                </p>
+                <h1>{props.title}</h1>
+                <p>{props.text}</p>
                 <button>узнать точную цену</button>
             </div>
         </div>

@@ -4,23 +4,38 @@ body{
 }
 
 .wraper{
-    height: 600px;
+    min-height: 600px;
     width: 400px;
+    transition: 0.5s;
+}
+.wraper:hover{
+    transition: 0.5s;
+    transform: translateY(-10px);
 }
 
 .wraper img{
-    width: 380px;
+    width: 400px;
     height: 230px;
 }
 
+.img{
+    width: 400px;
+    background-color: white;
+
+}
+
 .inner {
+    text-align: left;
     padding: 5px 20px 50px 50px;
     background-color: white;
+    height: 370px;
 }
 
 .inner h1{
     padding-top: 34px;
+    font-size: 21px;
 }
 .inner p{
-    text-align: left;
+    font-size: 15px;
+    line-height: 22px;
 }
