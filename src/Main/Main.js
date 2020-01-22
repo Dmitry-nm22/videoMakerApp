@@ -5,6 +5,7 @@ import video from '../video/video.mp4'
 
 
 
+
 function Main() {
     return (
         <div className={s.intro}>
@@ -13,7 +14,9 @@ function Main() {
             </div>
             <div className={s.intro__content}>
                 <div className={s.container}>
-                    <h1 className={s.intro__title}>Производство рекламных роликов, презентационных и имиджевых фильмов</h1>
+                    <h1 className={s.intro__title}>ВИДЕОПРОДАКШН СТУДИЯ </h1>
+                    <h2 className={s.intro__titleTwo}> В ПРАГЕ</h2>
+                    <button className={s.button}> смотреть портфолио</button>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import NavMenu from "./NavMenu/NavMenu";
 import Main from "./Main/Main";
 import About from "./About/About";
 import Partners from "./Partners/Partners";
+import NavMenu from "./NavMenu/NavMenu";
 
 
 
