@@ -1,0 +1,37 @@
+.wraper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+    height: 350px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 22px;
+    margin-bottom: 17px;
+    background-color: rgba(116, 116, 116, 0.11);
+}
+.wraper h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: red;
+}
+.wraper p{
+    text-align: justify;
+    color: #666666;
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
