@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/videoMakerApp/static/css/main.73b2f9b2.chunk.css",
-    "main.js": "/videoMakerApp/static/js/main.f5520cff.chunk.js",
-    "main.js.map": "/videoMakerApp/static/js/main.f5520cff.chunk.js.map",
+    "main.css": "/videoMakerApp/static/css/main.1c0af6b9.chunk.css",
+    "main.js": "/videoMakerApp/static/js/main.25d6eb6f.chunk.js",
+    "main.js.map": "/videoMakerApp/static/js/main.25d6eb6f.chunk.js.map",
     "runtime-main.js": "/videoMakerApp/static/js/runtime-main.36930afb.js",
     "runtime-main.js.map": "/videoMakerApp/static/js/runtime-main.36930afb.js.map",
     "static/js/2.73b12e73.chunk.js": "/videoMakerApp/static/js/2.73b12e73.chunk.js",
     "static/js/2.73b12e73.chunk.js.map": "/videoMakerApp/static/js/2.73b12e73.chunk.js.map",
     "index.html": "/videoMakerApp/index.html",
-    "precache-manifest.e5ff647d03f97642b8ddd49d66d53057.js": "/videoMakerApp/precache-manifest.e5ff647d03f97642b8ddd49d66d53057.js",
+    "precache-manifest.4c922090cfe627f6896aeacb172a070f.js": "/videoMakerApp/precache-manifest.4c922090cfe627f6896aeacb172a070f.js",
     "service-worker.js": "/videoMakerApp/service-worker.js",
-    "static/css/main.73b2f9b2.chunk.css.map": "/videoMakerApp/static/css/main.73b2f9b2.chunk.css.map",
+    "static/css/main.1c0af6b9.chunk.css.map": "/videoMakerApp/static/css/main.1c0af6b9.chunk.css.map",
     "static/js/2.73b12e73.chunk.js.LICENSE": "/videoMakerApp/static/js/2.73b12e73.chunk.js.LICENSE",
     "static/media/Main.module.css": "/videoMakerApp/static/media/cover.561b5be0.jpg",
     "static/media/video.mp4": "/videoMakerApp/static/media/video.5d6782f8.mp4",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.36930afb.js",
     "static/js/2.73b12e73.chunk.js",
-    "static/css/main.73b2f9b2.chunk.css",
-    "static/js/main.f5520cff.chunk.js"
+    "static/css/main.1c0af6b9.chunk.css",
+    "static/js/main.25d6eb6f.chunk.js"
   ]
 }

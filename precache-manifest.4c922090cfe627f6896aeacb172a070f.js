@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfbb60a3b5c921d8beea9064abe3120c",
+    "revision": "108e9c99405fc630328d250086d958ae",
     "url": "/videoMakerApp/index.html"
   },
   {
-    "revision": "68ecdfc26678ea5557f1",
-    "url": "/videoMakerApp/static/css/main.73b2f9b2.chunk.css"
+    "revision": "0245a4202131b1871b27",
+    "url": "/videoMakerApp/static/css/main.1c0af6b9.chunk.css"
   },
   {
     "revision": "f54d4154c169f647407f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/videoMakerApp/static/js/2.73b12e73.chunk.js.LICENSE"
   },
   {
-    "revision": "68ecdfc26678ea5557f1",
-    "url": "/videoMakerApp/static/js/main.f5520cff.chunk.js"
+    "revision": "0245a4202131b1871b27",
+    "url": "/videoMakerApp/static/js/main.25d6eb6f.chunk.js"
   },
   {
     "revision": "0386d7d88c04a7b8018f",
