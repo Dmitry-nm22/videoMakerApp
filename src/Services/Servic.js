@@ -15,7 +15,13 @@ function Servic(props) {
             <div className={s.inner}>
                 <h1>{props.title}</h1>
                 <p>{props.text}</p>
-                <button>узнать точную цену</button>
+                <div className={s.button}>
+                    <a href="">
+                        узнать точную цену
+                        <span className={s.element}>></span>
+                    </a>
+                </div>
+
             </div>
         </div>
     );
