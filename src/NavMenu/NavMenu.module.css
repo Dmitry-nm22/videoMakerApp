@@ -12,7 +12,8 @@
 
 /*header*/
 .header{
-    padding-top: 10px;
+    border-bottom: 1px solid gray;
+    /*padding: 14px 0px;*/
     width: 100%;
     position: absolute;
     top: 0;
@@ -31,9 +32,13 @@
     font-weight: 700;
     color: #ffffff;
 }
+.header__logo img {
+    height: 89px;
+    width: 93px;
+}
+
 /*nav*/
 .nav{
-    /*font-size: 25px;*/
     text-transform: uppercase;
 }
 .nav a{
@@ -51,21 +56,23 @@
 
 .nav__link:hover{
     opacity: 100%;
+    transition: 0.1s;
+    transform: translateY(-2px);
 }
 
 .nav__link:hover:after {
     display: block;
 }
 
-@media screen and (max-width: 660px){
-  .nav{
-      display: none;
-  }
-}
+/*@media screen and (max-width: 660px){*/
+/*  .nav{*/
+/*      display: none;*/
+/*  }*/
+/*}*/
 
-@media screen and (max-width: 660px){
-   .header__logo{
-       display: none;
-   }
-}
+/*@media screen and (max-width: 660px){*/
+/*   .header__logo{*/
+/*       display: none;*/
+/*   }*/
+/*}*/
 

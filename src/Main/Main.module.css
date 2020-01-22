@@ -47,7 +47,8 @@ body {
     font-weight: 400;
     color: #fff;
     text-align: center;
-    padding-bottom: 54px;
+    padding-top: 10px;
+    padding-bottom: 65px;
 }
 
 .container {
@@ -80,10 +81,12 @@ body {
     width: 200px;
     height: 50px;
     transition: 0.5s;
+
 }
 .button:hover{
     background: white;
     border: black;
     color: black;
     transition: 0.5s;
+    transform: translateY(-10px);
 }

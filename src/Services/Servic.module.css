@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.wraper{
+    height: 600px;
+    width: 400px;
+}
+
+.wraper img{
+    width: 380px;
+    height: 230px;
+}
+
+.inner {
+    padding: 5px 20px 50px 50px;
+    background-color: white;
+}
+
+.inner h1{
+    padding-top: 34px;
+}
+.inner p{
+    text-align: left;
+}
