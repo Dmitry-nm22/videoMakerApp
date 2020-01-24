@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/videoMakerApp/static/css/main.9b65f103.chunk.css",
-    "main.js": "/videoMakerApp/static/js/main.3c2a1249.chunk.js",
-    "main.js.map": "/videoMakerApp/static/js/main.3c2a1249.chunk.js.map",
+    "main.css": "/videoMakerApp/static/css/main.70bcec12.chunk.css",
+    "main.js": "/videoMakerApp/static/js/main.4af4852c.chunk.js",
+    "main.js.map": "/videoMakerApp/static/js/main.4af4852c.chunk.js.map",
     "runtime-main.js": "/videoMakerApp/static/js/runtime-main.36930afb.js",
     "runtime-main.js.map": "/videoMakerApp/static/js/runtime-main.36930afb.js.map",
-    "static/js/2.607c3ced.chunk.js": "/videoMakerApp/static/js/2.607c3ced.chunk.js",
-    "static/js/2.607c3ced.chunk.js.map": "/videoMakerApp/static/js/2.607c3ced.chunk.js.map",
+    "static/js/2.2ed071c4.chunk.js": "/videoMakerApp/static/js/2.2ed071c4.chunk.js",
+    "static/js/2.2ed071c4.chunk.js.map": "/videoMakerApp/static/js/2.2ed071c4.chunk.js.map",
     "index.html": "/videoMakerApp/index.html",
-    "precache-manifest.31aed425b854df2991d9804a13a46a31.js": "/videoMakerApp/precache-manifest.31aed425b854df2991d9804a13a46a31.js",
+    "precache-manifest.ee0ac5d1c271d335cfb743b486a95141.js": "/videoMakerApp/precache-manifest.ee0ac5d1c271d335cfb743b486a95141.js",
     "service-worker.js": "/videoMakerApp/service-worker.js",
-    "static/css/main.9b65f103.chunk.css.map": "/videoMakerApp/static/css/main.9b65f103.chunk.css.map",
-    "static/js/2.607c3ced.chunk.js.LICENSE": "/videoMakerApp/static/js/2.607c3ced.chunk.js.LICENSE",
+    "static/css/main.70bcec12.chunk.css.map": "/videoMakerApp/static/css/main.70bcec12.chunk.css.map",
+    "static/js/2.2ed071c4.chunk.js.LICENSE": "/videoMakerApp/static/js/2.2ed071c4.chunk.js.LICENSE",
     "static/media/clip.jpg": "/videoMakerApp/static/media/clip.a16f1df8.jpg",
     "static/media/Main.module.css": "/videoMakerApp/static/media/cover.561b5be0.jpg",
     "static/media/interview.jpg": "/videoMakerApp/static/media/interview.59901e97.jpg",
@@ -19,14 +19,12 @@
     "static/media/marketing.jpg": "/videoMakerApp/static/media/marketing.1e06b98c.jpg",
     "static/media/service1.jpg": "/videoMakerApp/static/media/service1.40459fb3.jpg",
     "static/media/video.mp4": "/videoMakerApp/static/media/video.5d6782f8.mp4",
-    "static/media/video.png": "/videoMakerApp/static/media/video.61d48e45.png",
-    "static/media/wallet.png": "/videoMakerApp/static/media/wallet.f1aa2575.png",
     "static/media/wedding.jpg": "/videoMakerApp/static/media/wedding.f96a6c9b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.36930afb.js",
-    "static/js/2.607c3ced.chunk.js",
-    "static/css/main.9b65f103.chunk.css",
-    "static/js/main.3c2a1249.chunk.js"
+    "static/js/2.2ed071c4.chunk.js",
+    "static/css/main.70bcec12.chunk.css",
+    "static/js/main.4af4852c.chunk.js"
   ]
 }
