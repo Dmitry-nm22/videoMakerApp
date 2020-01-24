@@ -11,6 +11,26 @@
     margin-right: auto;
     margin-left: auto;
 }
+.wraper p:after{
+    content: "";
+    display: block;
+    margin: 30px auto 0px;
+    height: 3px;
+    width: 50px;
+    background: #f72630;
+}
+
+.wraper p {
+    margin-top: 31px;
+    margin-left: 20px;
+    margin-bottom: -52px;
+}
+
+.wraper h1{
+    margin-top: 0;
+    margin-left: 20px;
+}
+
 
 .advantages{
     padding-left: 130px;
@@ -22,49 +42,4 @@
     justify-content: space-between;
     align-items: center;
 }
-.p:after{
-    content: "";
-    display: block;
-    margin: 30px auto 0px;
-    height: 3px;
-    width: 50px;
-    background: #f72630;
-}
 
-.p {
-    margin-top: 31px;
-    margin-left: 20px;
-    margin-bottom: -52px;
-}
-
-.h1{
-    margin-top: 0;
-    margin-left: 20px;
-}
-
-.basicBox {
-    text-transform: uppercase;
-    width: 300px;
-    height: 65px;
-    text-align: center;
-    line-height: 65px;
-    margin: 10px auto;
-    position: relative;
-    cursor: pointer;
-}
-svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-svg rect {
-    stroke: #536DFE;
-    stroke-width: 1;
-    transition: 0.8s;
-    stroke-dasharray: 400, 0;
-}
-.basicBox:hover svg rect {
-    stroke-width: 5;
-    stroke-dasharray: 35, 245;
-    stroke-dashoffset: 38
-}

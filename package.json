@@ -2,7 +2,7 @@
   "name": "videomaker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dmitry-nm22.github.io/videoMakerApp",
+  "homepage": "https://dmitry-nm22.github.io/videoMakerApp/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -10,10 +10,11 @@
     "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "yarn": "^1.21.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

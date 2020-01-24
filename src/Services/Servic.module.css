@@ -1,6 +1,8 @@
 body{
     padding: 0;
     margin: 0;
+
+
 }
 
 .wraper{
@@ -11,7 +13,7 @@ body{
 .wraper:hover{
     transition: 0.5s;
     transform: translateY(-10px);
-    box-shadow: 1px 2px 3px 4px rgba(127, 127, 127, 0.32);
+    box-shadow: 1px 2px 5px 4px rgba(127, 127, 127, 0.32);
 }
 
 .wraper img{
@@ -26,10 +28,14 @@ body{
 }
 
 .inner {
+    font-Family: 'Montserrat', sans-serif;
     text-align: left;
     padding: 5px 20px 50px 50px;
     background-color: white;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .inner h1{
@@ -37,20 +43,30 @@ body{
     font-size: 21px;
 }
 .inner p{
-    font-size: 15px;
+    font-size: 17px;
     line-height: 22px;
 }
-.button a{
-    text-decoration: none;
-    color: black;
+.inner button {
+    width: 200px;
+    height: 30px;
+    font-Family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 20px;
-}
-.button a:hover{
-    cursor: pointer;
-    color: #56bdbd
-}
+    font-size: 15px;
+    background: none;
+    outline: none;
+    border: 1px solid #56bdbd;
+    color: #56bdbd;
+    transition: 0.5s;
 
-.element{
-    padding-left: 20px;
+}
+.inner button:hover {
+    cursor: pointer;
+    background: #56bdbd;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    transform: translateY(-10px);
+    box-shadow: -1px 9px 28px 1px rgba(86,189,189,0.44);
+    -webkit-box-shadow: -1px 9px 28px 1px rgba(86,189,189,0.44);
+    -moz-box-shadow: -1px 9px 28px 1px rgba(86,189,189,0.44);
 }
