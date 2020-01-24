@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/videoMakerApp/static/css/main.70bcec12.chunk.css",
+    "main.css": "/videoMakerApp/static/css/main.a1825535.chunk.css",
     "main.js": "/videoMakerApp/static/js/main.4af4852c.chunk.js",
     "main.js.map": "/videoMakerApp/static/js/main.4af4852c.chunk.js.map",
     "runtime-main.js": "/videoMakerApp/static/js/runtime-main.36930afb.js",
@@ -8,9 +8,9 @@
     "static/js/2.2ed071c4.chunk.js": "/videoMakerApp/static/js/2.2ed071c4.chunk.js",
     "static/js/2.2ed071c4.chunk.js.map": "/videoMakerApp/static/js/2.2ed071c4.chunk.js.map",
     "index.html": "/videoMakerApp/index.html",
-    "precache-manifest.ee0ac5d1c271d335cfb743b486a95141.js": "/videoMakerApp/precache-manifest.ee0ac5d1c271d335cfb743b486a95141.js",
+    "precache-manifest.95776988910690343eff37ad915a8ebd.js": "/videoMakerApp/precache-manifest.95776988910690343eff37ad915a8ebd.js",
     "service-worker.js": "/videoMakerApp/service-worker.js",
-    "static/css/main.70bcec12.chunk.css.map": "/videoMakerApp/static/css/main.70bcec12.chunk.css.map",
+    "static/css/main.a1825535.chunk.css.map": "/videoMakerApp/static/css/main.a1825535.chunk.css.map",
     "static/js/2.2ed071c4.chunk.js.LICENSE": "/videoMakerApp/static/js/2.2ed071c4.chunk.js.LICENSE",
     "static/media/clip.jpg": "/videoMakerApp/static/media/clip.a16f1df8.jpg",
     "static/media/Main.module.css": "/videoMakerApp/static/media/cover.561b5be0.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.36930afb.js",
     "static/js/2.2ed071c4.chunk.js",
-    "static/css/main.70bcec12.chunk.css",
+    "static/css/main.a1825535.chunk.css",
     "static/js/main.4af4852c.chunk.js"
   ]
 }
