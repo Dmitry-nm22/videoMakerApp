@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/videoMakerApp/precache-manifest.beb33b690a3ea153e6951887e6ee94fb.js"
+  "/videoMakerApp/precache-manifest.bcf433fec5856f232a1c1a2f9ef6e5a3.js"
 );
 
 self.addEventListener('message', (event) => {

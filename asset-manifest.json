@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/videoMakerApp/static/css/main.cea3de0c.chunk.css",
-    "main.js": "/videoMakerApp/static/js/main.2a2710cd.chunk.js",
-    "main.js.map": "/videoMakerApp/static/js/main.2a2710cd.chunk.js.map",
+    "main.css": "/videoMakerApp/static/css/main.bd12dc8e.chunk.css",
+    "main.js": "/videoMakerApp/static/js/main.41e83ec0.chunk.js",
+    "main.js.map": "/videoMakerApp/static/js/main.41e83ec0.chunk.js.map",
     "runtime-main.js": "/videoMakerApp/static/js/runtime-main.36930afb.js",
     "runtime-main.js.map": "/videoMakerApp/static/js/runtime-main.36930afb.js.map",
-    "static/js/2.f02fa716.chunk.js": "/videoMakerApp/static/js/2.f02fa716.chunk.js",
-    "static/js/2.f02fa716.chunk.js.map": "/videoMakerApp/static/js/2.f02fa716.chunk.js.map",
+    "static/js/2.0d39d815.chunk.js": "/videoMakerApp/static/js/2.0d39d815.chunk.js",
+    "static/js/2.0d39d815.chunk.js.map": "/videoMakerApp/static/js/2.0d39d815.chunk.js.map",
     "index.html": "/videoMakerApp/index.html",
-    "precache-manifest.beb33b690a3ea153e6951887e6ee94fb.js": "/videoMakerApp/precache-manifest.beb33b690a3ea153e6951887e6ee94fb.js",
+    "precache-manifest.bcf433fec5856f232a1c1a2f9ef6e5a3.js": "/videoMakerApp/precache-manifest.bcf433fec5856f232a1c1a2f9ef6e5a3.js",
     "service-worker.js": "/videoMakerApp/service-worker.js",
-    "static/css/main.cea3de0c.chunk.css.map": "/videoMakerApp/static/css/main.cea3de0c.chunk.css.map",
-    "static/js/2.f02fa716.chunk.js.LICENSE": "/videoMakerApp/static/js/2.f02fa716.chunk.js.LICENSE",
+    "static/css/main.bd12dc8e.chunk.css.map": "/videoMakerApp/static/css/main.bd12dc8e.chunk.css.map",
+    "static/js/2.0d39d815.chunk.js.LICENSE": "/videoMakerApp/static/js/2.0d39d815.chunk.js.LICENSE",
     "static/media/clip.jpg": "/videoMakerApp/static/media/clip.a16f1df8.jpg",
     "static/media/Main.module.css": "/videoMakerApp/static/media/cover.561b5be0.jpg",
     "static/media/interview.jpg": "/videoMakerApp/static/media/interview.59901e97.jpg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.36930afb.js",
-    "static/js/2.f02fa716.chunk.js",
-    "static/css/main.cea3de0c.chunk.css",
-    "static/js/main.2a2710cd.chunk.js"
+    "static/js/2.0d39d815.chunk.js",
+    "static/css/main.bd12dc8e.chunk.css",
+    "static/js/main.41e83ec0.chunk.js"
   ]
 }
