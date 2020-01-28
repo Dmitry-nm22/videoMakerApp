@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eac6b07af77de1a012e408526e7382b7",
+    "revision": "df39a95e38e19b5dddcd8b5b45c4a33b",
     "url": "/videoMakerApp/index.html"
   },
   {
-    "revision": "9dff2074fb77c01faf95",
-    "url": "/videoMakerApp/static/css/main.66dfa7a3.chunk.css"
+    "revision": "be1b06b94a4625e02ba5",
+    "url": "/videoMakerApp/static/css/main.cea3de0c.chunk.css"
   },
   {
-    "revision": "6b8cc64a095f804d4ae9",
-    "url": "/videoMakerApp/static/js/2.fed7373b.chunk.js"
+    "revision": "a5338b058cd9b76af0bc",
+    "url": "/videoMakerApp/static/js/2.f02fa716.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/videoMakerApp/static/js/2.fed7373b.chunk.js.LICENSE"
+    "url": "/videoMakerApp/static/js/2.f02fa716.chunk.js.LICENSE"
   },
   {
-    "revision": "9dff2074fb77c01faf95",
-    "url": "/videoMakerApp/static/js/main.2f7b8087.chunk.js"
+    "revision": "be1b06b94a4625e02ba5",
+    "url": "/videoMakerApp/static/js/main.2a2710cd.chunk.js"
   },
   {
     "revision": "0386d7d88c04a7b8018f",
@@ -54,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f96a6c9bae2c02e95bf29d6ad06ef90b",
     "url": "/videoMakerApp/static/media/wedding.f96a6c9b.jpg"
+  },
+  {
+    "revision": "f1f954bbe2be04c6ffe59197d145061f",
+    "url": "/videoMakerApp/static/media/Безымянный.f1f954bb.png"
   }
 ]);
