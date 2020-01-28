@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './NavMenu.module.css';
 import logo from '../img/logo.png';
 
+import { Link } from "react-scroll";
+
 
 function NavMenu() {
     return (
@@ -12,13 +14,35 @@ function NavMenu() {
                         <img src={logo} alt="logo"/>
                     </div>
 
-                    <nav className={styles.nav}>
-                        <a className={styles.nav__link} href="#portfolio" >ПОРТФОЛИО</a>
-                        <a className={styles.nav__link} href="/services">УСЛУГИ</a>
-                        <a className={styles.nav__link} href="/partners">НАШИ ПАРТНЕРЫ</a>
-                        <a className={styles.nav__link} href="/contact">КОНТАКТЫ</a>
-                        <a className={styles.nav__link} href="/about">О НАС</a>
-                    </nav>
+                    <div className={styles.nav}>
+                        <Link
+                            className={styles.nav__link}
+                            activeClass="active"
+                            to="portfolio"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration= {500}
+                        >
+                            ПОРТФОЛИО
+                        </Link>
+                        <Link
+                            className={styles.nav__link}
+                            activeClass="active"
+                            to="services"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration= {500}
+                        >
+                            УСЛУГИ
+                        </Link>
+
+
+                        <a className={styles.nav__link} href="/#partners">НАШИ ПАРТНЕРЫ</a>
+                        <a className={styles.nav__link} href="/#contact">КОНТАКТЫ</a>
+                        <a className={styles.nav__link} href="/#about">О НАС</a>
+                    </div>
                 </div>
             </div>
         </header>
