@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Portfolio.module.css';
 import img from '../img/Безымянный.png';
+import VideoPortfolio from "./Video";
 
 
 
@@ -9,14 +10,12 @@ import img from '../img/Безымянный.png';
 
 function Portfolio() {
     return (
-        <div className={s.wraper} >
+        <div className={s.wraper} id="portfolio">
             <h1>Портфолио</h1>
             <p>Каждый проект важен для нас</p>
             <div className={s.inner}>
-                <div className={s.video}>
-
-                </div>
-                <div className={s.video}></div>
+                <VideoPortfolio/>
+                <VideoPortfolio/>
             </div>
 
 

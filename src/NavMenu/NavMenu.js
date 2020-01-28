@@ -13,7 +13,7 @@ function NavMenu() {
                     </div>
 
                     <nav className={styles.nav}>
-                        <a className={styles.nav__link} href="/portfolio">ПОРТФОЛИО</a>
+                        <a className={styles.nav__link} href="#portfolio" >ПОРТФОЛИО</a>
                         <a className={styles.nav__link} href="/services">УСЛУГИ</a>
                         <a className={styles.nav__link} href="/partners">НАШИ ПАРТНЕРЫ</a>
                         <a className={styles.nav__link} href="/contact">КОНТАКТЫ</a>

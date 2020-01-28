@@ -1,14 +1,13 @@
 body{
     padding: 0;
     margin: 0;
-
-
 }
 
 .wraper{
     min-height: 600px;
     width: 400px;
     transition: 0.5s;
+    margin: 0px 13px 0px 13px;
 }
 .wraper:hover{
     transition: 0.5s;
@@ -24,7 +23,6 @@ body{
 .img{
     width: 400px;
     background-color: white;
-
 }
 
 .inner {
