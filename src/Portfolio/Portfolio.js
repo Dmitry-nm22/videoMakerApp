@@ -15,7 +15,7 @@ function Portfolio() {
             <p>Каждый проект важен для нас</p>
             <div className={s.inner}>
                 <VideoPortfolio/>
-                <VideoPortfolio/>
+                {/*<VideoPortfolio/>*/}
             </div>
 
 

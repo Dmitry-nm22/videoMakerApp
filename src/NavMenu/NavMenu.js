@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './NavMenu.module.css';
 import logo from '../img/logo.png';
-
 import { Link } from "react-scroll";
+
 
 
 function NavMenu() {
@@ -21,8 +21,8 @@ function NavMenu() {
                             to="portfolio"
                             spy={true}
                             smooth={true}
-                            offset={-70}
-                            duration= {500}
+                            offset={0}
+                            duration= {1000}
                         >
                             ПОРТФОЛИО
                         </Link>
@@ -32,8 +32,8 @@ function NavMenu() {
                             to="services"
                             spy={true}
                             smooth={true}
-                            offset={-70}
-                            duration= {500}
+                            offset={0}
+                            duration= {1000}
                         >
                             УСЛУГИ
                         </Link>
