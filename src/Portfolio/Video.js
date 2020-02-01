@@ -22,14 +22,14 @@ class VideoPortfolio extends React.Component {
 
     render(){
         return (
-            <div className={s.wraper} >
-
+            <body className={s.wraper} >
+                <img className={s.img} src={this.props.img} alt=""/>
                 <div href='#'  onClick={this.openModal} className={s.button}><i className="fa fa-play fa-2x"></i>
                     <ModalVideo channel='vimeo' isOpen={this.state.isOpen} videoId={this.props.id}
                                 onClose={this.openModal}
                     />
                 </div>
-            </div>
+            </body>
         );
     }
 
