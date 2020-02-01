@@ -6,7 +6,7 @@ import Partners from "./Partners/Partners";
 import NavMenu from "./NavMenu/NavMenu";
 import Services from "./Services/Services";
 import Portfolio from "./Portfolio/Portfolio";
-import Tests from "./Testss";
+
 
 
 
@@ -20,8 +20,6 @@ function App() {
           {/*<About/>*/}
           {/*<Partners/>*/}
           <Portfolio/>
-          <Tests/>
-
       </div>
   );
 }

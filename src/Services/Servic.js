@@ -12,7 +12,7 @@ function Servic(props) {
                 <img src={props.img} alt="logo"/>
             </div>
 
-            <div className={s.inner} style={props.style}>
+            <div className={s.inner} >
                 <h1>{props.title}</h1>
                 <p>{props.text}</p>
                 <button>Узнать точную цену</button>

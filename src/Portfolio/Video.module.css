@@ -1,7 +1,8 @@
 .wraper{
     height: 300px;
     width: 600px;
-    background-color: rgba(247, 38, 48, 0.32);
+    /*background-color: rgba(247, 38, 48, 0.32);*/
+    background: url("../img/inglot.jpg") center no-repeat;
     margin: 0px 15px;
     display: flex;
     align-items: center;

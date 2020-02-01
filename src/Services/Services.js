@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Services.module.css';
 import Servic from "./Servic";
 
+//img
 import wedding from "../img/wedding.jpg";
 import video from '../img/service1.jpg';
 import interview from "../img/interview.jpg";
@@ -10,7 +11,7 @@ import clip from "../img/clip.jpg";
 import marketing from "../img/marketing.jpg";
 
 
-
+//title
 const titleOne ='Видео-рекламы'
 const titleTwo ='Корпоративные видео'
 const titleThree ='Мероприятий и конференций'
