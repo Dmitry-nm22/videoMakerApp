@@ -40,7 +40,19 @@ function NavMenu() {
 
 
                         <a className={styles.nav__link} href="/#partners">НАШИ ПАРТНЕРЫ</a>
-                        <a className={styles.nav__link} href="/#contact">КОНТАКТЫ</a>
+
+                        <Link
+                            className={styles.nav__link}
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration= {1000}
+                        >
+                            КОНТАКТЫ
+                        </Link>
+                        {/*<a className={styles.nav__link} href="/#contact">КОНТАКТЫ</a>*/}
                         <a className={styles.nav__link} href="/#about">О НАС</a>
                     </div>
                 </div>

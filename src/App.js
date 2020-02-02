@@ -2,10 +2,13 @@ import React from 'react';
 import './App.css';
 
 import Main from "./Main/Main";
-import Partners from "./Partners/Partners";
 import NavMenu from "./NavMenu/NavMenu";
 import Services from "./Services/Services";
 import Portfolio from "./Portfolio/Portfolio";
+import Order from "./Order/Order";
+import Contact from "./Contact/Contact";
+import SocialNetworks from "./SocialNetworks/SocialNetworks";
+
 
 
 
@@ -17,9 +20,10 @@ function App() {
          <NavMenu/>
           <Main/>
           <Services/>
-          {/*<About/>*/}
-          {/*<Partners/>*/}
           <Portfolio/>
+          <Order/>
+          <Contact/>
+          <SocialNetworks/>
       </div>
   );
 }

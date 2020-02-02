@@ -6,7 +6,7 @@ import VideoPortfolio from "./Video";
 import imgInglot from '../img/inglot.jpg';
 import imgSlavyanka from '../img/slavyanka.jpg';
 import imgLove from '../img/love.jpg';
-import imgFactory from '../img/factory.jpg';
+import imgFactory from '../img/factory.png';
 
 
 //id's videos from vimeo.com
