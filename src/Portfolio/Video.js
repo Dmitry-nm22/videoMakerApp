@@ -22,8 +22,7 @@ class VideoPortfolio extends React.Component {
 
     render(){
         return (
-            <body className={s.wraper} >
-                <img className={s.img} src={this.props.img} alt=""/>
+            <body className={s.wraper} style={this.props.style}>
                 <div href='#'  onClick={this.openModal} className={s.button}><i className="fa fa-play fa-2x"></i>
                     <ModalVideo channel='vimeo' isOpen={this.state.isOpen} videoId={this.props.id}
                                 onClose={this.openModal}
