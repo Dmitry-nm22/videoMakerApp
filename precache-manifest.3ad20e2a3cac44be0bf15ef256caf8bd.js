@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f3ecb5ce9cf8c605c31393d57659f47",
+    "revision": "f5bc4a8873fe0a756780871ab87c065d",
     "url": "/videoMakerApp/index.html"
   },
   {
-    "revision": "f6adb8becbc79b654166",
-    "url": "/videoMakerApp/static/css/main.bd12dc8e.chunk.css"
+    "revision": "696a8840bff4c3e92e20",
+    "url": "/videoMakerApp/static/css/main.f4358deb.chunk.css"
   },
   {
-    "revision": "f7f43138c111a1f6439a",
-    "url": "/videoMakerApp/static/js/2.0d39d815.chunk.js"
+    "revision": "55e4b9afcf081896f4bd",
+    "url": "/videoMakerApp/static/js/2.3a170f42.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/videoMakerApp/static/js/2.0d39d815.chunk.js.LICENSE"
+    "url": "/videoMakerApp/static/js/2.3a170f42.chunk.js.LICENSE"
   },
   {
-    "revision": "f6adb8becbc79b654166",
-    "url": "/videoMakerApp/static/js/main.41e83ec0.chunk.js"
+    "revision": "696a8840bff4c3e92e20",
+    "url": "/videoMakerApp/static/js/main.8839a825.chunk.js"
   },
   {
     "revision": "0386d7d88c04a7b8018f",
@@ -32,12 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/videoMakerApp/static/media/cover.561b5be0.jpg"
   },
   {
+    "revision": "b9c246ea3d717d5ecd2a93c1056586f4",
+    "url": "/videoMakerApp/static/media/factory.b9c246ea.jpg"
+  },
+  {
+    "revision": "4237d4233bcbe1df23c466f074cc148a",
+    "url": "/videoMakerApp/static/media/inglot.4237d423.jpg"
+  },
+  {
     "revision": "59901e97a95d6362150b10e9c02b94c8",
     "url": "/videoMakerApp/static/media/interview.59901e97.jpg"
   },
   {
     "revision": "513f6f6079a67b339028e97b395cca00",
     "url": "/videoMakerApp/static/media/ivent.513f6f60.jpg"
+  },
+  {
+    "revision": "1398e276babd20124cf9e4a8077f851d",
+    "url": "/videoMakerApp/static/media/love.1398e276.jpg"
   },
   {
     "revision": "1e06b98c57a25060d4e35d5e4f002fd5",
@@ -48,15 +60,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/videoMakerApp/static/media/service1.40459fb3.jpg"
   },
   {
+    "revision": "1ec2469d492d28c87b40e62eb338460d",
+    "url": "/videoMakerApp/static/media/slavyanka.1ec2469d.jpg"
+  },
+  {
     "revision": "5d6782f8908930f08aff5f5a5669e0eb",
     "url": "/videoMakerApp/static/media/video.5d6782f8.mp4"
   },
   {
     "revision": "f96a6c9bae2c02e95bf29d6ad06ef90b",
     "url": "/videoMakerApp/static/media/wedding.f96a6c9b.jpg"
-  },
-  {
-    "revision": "f1f954bbe2be04c6ffe59197d145061f",
-    "url": "/videoMakerApp/static/media/Безымянный.f1f954bb.png"
   }
 ]);
