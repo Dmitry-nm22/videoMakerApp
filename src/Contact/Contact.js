@@ -9,6 +9,7 @@ function Contact() {
     return (
         <div className={s.wraper} id='contact'>
             <div className={s.contactInfo}>
+                <h4>ОТПРАВИТЬ СООБЩЕНИЕ</h4>
                 <input type='text' name='name' placeholder='Name'/>
                 <input type='text' name='email' placeholder='Email'/>
                 <textarea className={s.messageArea} placeholder='опищите кратко запрос'></textarea>

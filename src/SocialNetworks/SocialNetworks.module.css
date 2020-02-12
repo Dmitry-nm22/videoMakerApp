@@ -1,16 +1,20 @@
 .wraper{
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
 }
 .inner{
-    width: 200px;
-    height: 50px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-left: 580px;
-    margin-top: 60px;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    padding: 10px 12px;
+}
+.inner:hover{
+
 }
 .inner a i{
-    font-size: 40px;
-    padding-right: 30px;
+    font-size: 20px;
 }
