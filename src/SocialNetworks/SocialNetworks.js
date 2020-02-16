@@ -5,7 +5,7 @@ import SocialNetwork from "./SocialNetwork";
 
 
 const bcColorInst = {
-    backgroundColor: '#f72630',
+    backgroundColor: 'gray',
 };
 
 const bcColorVimeo = {
@@ -13,16 +13,31 @@ const bcColorVimeo = {
 };
 
 const bcColorFacebook = {
-    backgroundColor: '#f72630',
+    backgroundColor:  '#f72630',
 };
 
+const changeClass = () =>{
+    bcColorFacebook.backgroundColor = '#f72630'
+}
 
 function SocialNetworks() {
     return (
         <div className={s.wraper}>
-            <SocialNetwork className={'fab fa-facebook-f'} style={bcColorFacebook}/>
-            <SocialNetwork className={'fab fa-vimeo-v'} style={bcColorVimeo}/>
-            <SocialNetwork className={'fab fa-instagram'} style={bcColorInst}/>
+            <SocialNetwork className={'fab fa-facebook-f'}/>
+            <SocialNetwork className={'fab fa-vimeo-v'} />
+            <SocialNetwork className={'fab fa-instagram'} />
+
+            {/*<div className={s.inner}>*/}
+            {/*    <a href=""><i className={'fab fa-facebook-f'}></i></a>*/}
+            {/*</div>*/}
+
+            {/*<div className={s.inner}>*/}
+            {/*    <a href=""><i className={'fab fa-vimeo-v'}></i></a>*/}
+            {/*</div>*/}
+
+            {/*<div className={s.inner}>*/}
+            {/*    <a href=""><i className={'fab fa-instagram'}></i></a>*/}
+            {/*</div>*/}
         </div>
     );
 }
