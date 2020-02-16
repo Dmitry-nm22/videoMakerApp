@@ -8,6 +8,7 @@ import Portfolio from "./Portfolio/Portfolio";
 import Order from "./Order/Order";
 import Contact from "./Contact/Contact";
 import SocialNetworks from "./SocialNetworks/SocialNetworks";
+import Footer from "./Footer/Footer";
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Order/>
           <Contact/>
           <SocialNetworks/>
+          <Footer/>
       </div>
   );
 }

@@ -11,9 +11,11 @@
     width: 60px;
     height: 40px;
     padding: 10px 12px;
+    border-radius: 3px;
 }
 .inner:nth-child(1):hover {
      background-color: #5240f7;
+
  }
 
 .inner:nth-child(1):hover a i {
@@ -29,7 +31,7 @@
 }
 
 .inner:nth-child(3):hover {
-    background-color: #5240f7;
+    background-color: #5a5a5a;
 }
 
 .inner:nth-child(3):hover a i {
@@ -38,4 +40,5 @@
 
 .inner a i{
     font-size: 20px;
+    color: #5a5a5a;
 }

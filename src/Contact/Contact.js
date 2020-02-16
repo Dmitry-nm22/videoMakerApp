@@ -11,7 +11,7 @@ function Contact() {
             <div className={s.contactInfo}>
                 <h4>ОТПРАВИТЬ СООБЩЕНИЕ</h4>
                 <input type='text' name='name' placeholder='Name'/>
-                <input type='text' name='email' placeholder='Email'/>
+                <input type='text' name='phone' placeholder='Phone' step='none'/>
                 <textarea className={s.messageArea} placeholder='опищите кратко запрос'></textarea>
                 <button>Отправить</button>
             </div>
