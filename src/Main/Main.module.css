@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+
 }
 
 .intro {
@@ -36,12 +36,14 @@ body {
 }
 
 .intro__title {
+    font-family: 'Lato', sans-serif;
     margin: 0;
     font-size: 45px;
     color: #fff;
     text-align: center;
 }
 .intro__titleTwo {
+    font-family: 'Lato', sans-serif;
     margin: 0;
     font-size: 45px;
     font-weight: 400;
@@ -75,7 +77,7 @@ body {
 }
 
 .button {
-    font-Family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     background: none;
     outline: none;

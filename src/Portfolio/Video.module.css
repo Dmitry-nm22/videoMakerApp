@@ -32,7 +32,6 @@
 }
 
 .button {
-
     box-sizing: border-box;
     display:block;
     width:80px;
@@ -49,7 +48,7 @@
     font-size:20px;
     font-weight:bold;
     transition: all 0.3s ease;
-    z-index: 3;
+    z-index: 1;
 }
 
 .button:hover {

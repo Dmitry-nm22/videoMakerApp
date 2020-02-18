@@ -1,45 +1,25 @@
-.wraper{
-    font-family: 'Montserrat', sans-serif;
-    height: 100vh;
-    background: white;
+.wraper {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-right: 25px;
-    padding-left: 25px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.wraper p:after{
-    content: "";
-    display: block;
-    margin: 30px auto 0px;
-    height: 3px;
-    width: 50px;
-    background: #f72630;
-}
-
-.wraper p {
-    margin-top: 31px;
-    margin-left: 20px;
-    margin-bottom: -52px;
-}
-
-.wraper h1{
-    margin-top: 0;
-    margin-left: 20px;
-}
-
-
-.advantages{
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-bottom: 80px;
-    display: flex;
-    width: 100%;
-    min-height: 350px;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.about{
+    margin-left: 50px;
+
+}
+.img{
+    margin-left: 50px;
+    height: 200px;
+    width: 250px;
+
+}
+.text{
+    padding-right: 100px ;
+    padding-left: 100px;
+}
+.text span{
+
+
 }
 

@@ -5,8 +5,9 @@ body{
 }
 
 .wraper{
+    color: #333333;
     min-height: 100vh;
-    background-color: rgba(28, 28, 28, 0.2);
+    /*background-color: rgba(28, 28, 28, 0.2);*/
     text-align: center;
     padding: 0px 0px 15px;
 }

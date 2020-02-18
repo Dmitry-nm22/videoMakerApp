@@ -1,31 +1,28 @@
 import React from 'react';
 import s from './About.module.css'
-import Advantages from "./Advantages";
-
-// IMG
-import videoImg from "../img/video.png";
-import walletImg from "../img/wallet.png";
-import checkListImg from "../img/checklist.png";
-
-
-const firstText = 'Выполним любой по сложности видеопроект от создания оригинального сценария до монтажа,цветокоррекции и саунд дизайна.'
-const secondText='Обеспечиваем высокое качество видеопродукта по доступной цене. У нас прозрачная смета, без скрытых платежей.'
-const thirdText='Заключаем официальный договор. Согласование на каждом этапе работы. Оплата после того как увидите результат'
-
-
+import MeImg from '../img/Me.jpg'
 
 
 function About() {
     return (
-        <div>
-            <div className={s.wraper}>
-                <p className={s.p}>О НАС</p>
-                <h1 className={s.h1}>Мы делаем профессиональное видео для вашей кампании</h1>
-                <div className={s.advantages}>
-                    <Advantages img={videoImg} title={'под ключ'} text={firstText}/>
-                    <Advantages img={walletImg} title={'стоимость'} text={secondText}/>
-                    <Advantages img={checkListImg} title={'гарантии'} text={thirdText}/>
-                </div>
+        <div className={s.wraper}>
+            <div>
+                <h4 className={s.about}>О НАС</h4>
+            </div>
+            <div>
+                <img src={MeImg} className={s.img}/>
+                <p></p>
+            </div>
+            <div className={s.text}>
+                <span>
+                    Здравствуйте и добро пожаловать в HayotFilms.
+                        <br/>
+                    Меня зовут Воронско Станислав, и я являюсь основателем и главным видеографом VoronkoFilms - это видеостудия в Праге.<br/>
+                    В нашу команду входят талантливые видеооператоры, сценаристы, осветители, визажисты, продюсеры, ассистенты и многие другие.
+                    HayotFilms работает над фильмами, корпоративными видео, рекламными роликами и другими видео-проектами. Все наши сотрудники -
+                    настоящие проффесионалы своего дела! <br/>
+                    Если вам нужен видеограф в Праге или целая съёмочная группа с оборудованием в другой европейской стране, обратитесь к нам.
+                </span>
             </div>
 
         </div>
