@@ -52,8 +52,6 @@ function NavMenu() {
                         >
                             КОНТАКТЫ
                         </Link>
-                        {/*<a className={styles.nav__link} href="/#contact">КОНТАКТЫ</a>*/}
-                        <a className={styles.nav__link} href="/#about">О НАС</a>
                     </div>
                 </div>
             </div>
