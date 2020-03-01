@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './NavMenu.module.css';
 import logo from '../img/logo.png';
 import { Link } from "react-scroll";
+import {NavLink} from "react-router-dom";
 
 
 
@@ -15,43 +16,41 @@ function NavMenu() {
                     </div>
 
                     <div className={styles.nav}>
-                        <Link
-                            className={styles.nav__link}
-                            activeClass="active"
-                            to="portfolio"
-                            spy={true}
-                            smooth={true}
-                            offset={0}
-                            duration= {1000}
-                        >
-                            ПОРТФОЛИО
-                        </Link>
-                        <Link
-                            className={styles.nav__link}
-                            activeClass="active"
-                            to="services"
-                            spy={true}
-                            smooth={true}
-                            offset={0}
-                            duration= {1000}
-                        >
-                            УСЛУГИ
-                        </Link>
+                            <Link
+                                className={styles.nav__link}
+                                activeClass="active"
+                                to="portfolio"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={1000}
+                            >
+                                ПОРТФОЛИО
+                            </Link>
+                            <Link
+                                className={styles.nav__link}
+                                activeClass="active"
+                                to="services"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={1000}
+                            >
+                                УСЛУГИ
+                            </Link>
+                            <Link
+                                className={styles.nav__link}
+                                activeClass="active"
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={1000}
+                            >
+                                КОНТАКТЫ
+                            </Link>
 
-
-                        <a className={styles.nav__link} href="/#partners">НАШИ ПАРТНЕРЫ</a>
-
-                        <Link
-                            className={styles.nav__link}
-                            activeClass="active"
-                            to="contact"
-                            spy={true}
-                            smooth={true}
-                            offset={0}
-                            duration= {1000}
-                        >
-                            КОНТАКТЫ
-                        </Link>
+                        <NavLink to='/price' className={styles.nav__link}> Цены </NavLink>
                     </div>
                 </div>
             </div>

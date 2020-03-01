@@ -26,18 +26,6 @@ function SocialNetworks() {
             <SocialNetwork className={'fab fa-facebook-f'}/>
             <SocialNetwork className={'fab fa-vimeo-v'} />
             <SocialNetwork className={'fab fa-instagram'} />
-
-            {/*<div className={s.inner}>*/}
-            {/*    <a href=""><i className={'fab fa-facebook-f'}></i></a>*/}
-            {/*</div>*/}
-
-            {/*<div className={s.inner}>*/}
-            {/*    <a href=""><i className={'fab fa-vimeo-v'}></i></a>*/}
-            {/*</div>*/}
-
-            {/*<div className={s.inner}>*/}
-            {/*    <a href=""><i className={'fab fa-instagram'}></i></a>*/}
-            {/*</div>*/}
         </div>
     );
 }
