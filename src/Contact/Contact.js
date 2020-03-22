@@ -27,15 +27,15 @@ function Contact() {
                 <div className={s.about}>
                     <div className={s.aboutInner}>
                         <h4>КОНТАКТЫ</h4>
-                        <span><i className="fas fa-phone-square-alt"></i> +7 777 789 78 78</span>
-                        <span><i className="fab fa-telegram"></i>+7 777 789 78 78</span>
-                        <span><i className="fas fa-envelope"></i>example@gmail.com</span>
+                        <span><i className="fas fa-phone-square-alt"/> +375 (29) 888 63 85</span>
+                        <span><i className="fab fa-telegram"/>+375 (29) 888 63 85</span>
+                        <span><i className="fas fa-envelope"/>voronko.films@mail.ru</span>
                     </div>
                     <div className={s.aboutInnerTwo}>
-                        <h4>НАШ АДРЕС</h4>
-                        <span><i className="fas fa-map-marker-alt"></i> Jakubska 4</span>
-                        <span>Prague, Czech Republic</span>
-                        <span>Номер лицензии: 88213978</span>
+                        <h4>ОТДЕЛ МАРКЕТИНГА</h4>
+                        <span><i className="fas fa-phone-square-alt"/>+375 (29)202 83 43</span>
+                        <span><i className="fab fa-telegram"/>+375 (29)202 83 43</span>
+                        <span><i className="fas fa-envelope"/>v-films@mail.ru</span>
                     </div>
                 </div>
             </div>

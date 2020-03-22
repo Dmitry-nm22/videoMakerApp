@@ -8,34 +8,30 @@ import Order from "./Order/Order";
 import Contact from "./Contact/Contact";
 import SocialNetworks from "./SocialNetworks/SocialNetworks";
 import Footer from "./Footer/Footer";
-import Price from "./Price/Price";
 import {BrowserRouter, Route} from "react-router-dom";
-
-
-
-
+import About from "./About/About";
 
 
 
 function App() {
-  return (
-      <BrowserRouter>
-          <div className="App">
-              <div>
-                  <Route path='/price' render={() => <Price/> }/>
-                  <Route path='/main' render={() => <NavMenu/> }/>
-                  <Route path='/main' render={() => <Main/> }/>
-                  <Route path='/main' render={() => <Services/> }/>
-                  <Route path='/main' render={() => <Portfolio/> }/>
-                  <Route path='/main' render={() => <Order/> }/>
-                  <Route path='/main' render={() => <Contact/> }/>
-                  <Route path='/main' render={() => <SocialNetworks/> }/>
-                  <Route path='/main' render={() => <Footer/> }/>
-              </div>
-          </div>
-      </BrowserRouter>
+    return (
+        <BrowserRouter>
+            <div className="App">
+                <div>
+                    <Route exact path='/' render={() => <NavMenu/>}/>
+                    <Route exact path='/' render={() => <Main/>}/>
+                    <Route exact path='/' render={() => <About/>}/>
+                    <Route exact path='/' render={() => <Services/>}/>
+                    <Route exact path='/' render={() => <Portfolio/>}/>
+                    <Route exact path='/' render={() => <Order/>}/>
+                    <Route exact path='/' render={() => <Contact/>}/>
+                    <Route exact path='/' render={() => <SocialNetworks/>}/>
+                    <Route exact path='/' render={() => <Footer/>}/>
 
-  );
+                </div>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;

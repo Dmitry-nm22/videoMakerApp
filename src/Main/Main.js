@@ -17,7 +17,7 @@ function Main() {
             <div className={s.intro__content}>
                 <div className={s.container}>
                     <h1 className={s.intro__title}>ВИДЕОПРОДАКШН СТУДИЯ </h1>
-                    <h2 className={s.intro__titleTwo}> В ПРАГЕ</h2>
+                    <h2 className={s.intro__titleTwo}> VoronkoFilms</h2>
                     <Link
                         className={styles.nav__link}
                         activeClass="active"

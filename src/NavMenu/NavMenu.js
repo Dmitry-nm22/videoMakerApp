@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './NavMenu.module.css';
 import logo from '../img/logo.png';
 import { Link } from "react-scroll";
-import {NavLink} from "react-router-dom";
 
 
 
@@ -30,6 +29,17 @@ function NavMenu() {
                             <Link
                                 className={styles.nav__link}
                                 activeClass="active"
+                                to="About"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={1000}
+                            >
+                                ОБО МНЕ
+                            </Link>
+                            <Link
+                                className={styles.nav__link}
+                                activeClass="active"
                                 to="services"
                                 spy={true}
                                 smooth={true}
@@ -49,8 +59,6 @@ function NavMenu() {
                             >
                                 КОНТАКТЫ
                             </Link>
-
-                        <NavLink to='/price' className={styles.nav__link}> Цены </NavLink>
                     </div>
                 </div>
             </div>

@@ -19,13 +19,13 @@ const bcColorFacebook = {
 const changeClass = () =>{
     bcColorFacebook.backgroundColor = '#f72630'
 }
-
 function SocialNetworks() {
     return (
         <div className={s.wraper}>
             <SocialNetwork className={'fab fa-facebook-f'}/>
             <SocialNetwork className={'fab fa-vimeo-v'} />
             <SocialNetwork className={'fab fa-instagram'} />
+            <SocialNetwork className={'fab fa-youtube'} />
         </div>
     );
 }

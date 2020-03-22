@@ -1,7 +1,7 @@
 {
   "name": "videomaker",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://dmitry-nm22.github.io/videoMakerApp/",
   "dependencies": {
     "@material-ui/core": "^4.9.5",

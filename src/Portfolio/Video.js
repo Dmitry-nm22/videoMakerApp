@@ -1,37 +1,18 @@
 import React from 'react';
 import s from './Video.module.css';
-import ModalVideo from "react-modal-video";
 import './Style.scss'
 
 
+// className={`${styles.item} ${styles.active}`}
 
-
-class VideoPortfolio extends React.Component {
-
-    state={
-        isOpen: false
-    }
-
-
-    openModal= () => {
-        this.setState({
-            isOpen: !this.state.isOpen
-        })
-    }
-
-
-    render(){
-        return (
-            <body className={s.wraper} style={this.props.style}>
-                <div href='#'  onClick={this.openModal} className={s.button}><i className="fa fa-play fa-2x"></i>
-                    <ModalVideo channel='vimeo' isOpen={this.state.isOpen} videoId={this.props.id}
-                                onClose={this.openModal}
-                    />
-                </div>
-            </body>
-        );
-    }
-
+// www.youtube.com/embed/NGICM5uhRbQ
+function VideoPortfolio(props) {
+    return (
+        <body className={s.wraper}>
+        <iframe src={`https:/www.youtube.com/embed/${props.id}?title=0&byline=0&portrait=0`} width="100%" height="100%"
+                frameBorder="0" allow="autoplay; fullscreen" allowFullScreen/>
+        </body>
+    );
 }
 
 export default VideoPortfolio;

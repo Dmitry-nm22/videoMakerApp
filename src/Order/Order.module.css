@@ -1,6 +1,6 @@
 .wraper{
     height: 200px;
-    background-color: #2855bf;
+    background-color: #56bdbd;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@
 .wraper button:hover{
     background: white;
     border: black;
-    color: #2855bf;
+    color: #56bdbd;
     transition: 0.35s;
     transform: translateY(-10px);
 }
