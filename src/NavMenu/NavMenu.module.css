@@ -1,9 +1,10 @@
 
 *,
 *:before,
-*:after{
+*:after {
     box-sizing: border-box;
 }
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -11,7 +12,7 @@
 }
 
 /*header*/
-.header{
+.header {
     border-bottom: 1px solid gray;
     width: 100%;
     position: absolute;
@@ -20,28 +21,31 @@
     right: 0;
     z-index: 1000;
 }
-.header__inner{
+
+.header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header__logo{
+
+.header__logo {
     margin-left: 14px;
     font-size: 30px;
     font-weight: 700;
     color: #ffffff;
 }
+
 .header__logo img {
     height: 89px;
     width: 93px;
 }
 
 /*nav*/
-.nav{
+.nav {
     text-transform: uppercase;
 }
-.nav a{
 
+.nav a {
     font-family: 'Baloo Chettan 2', cursive;
     display: inline-block;
     vertical-align: top;
@@ -52,11 +56,11 @@
     position: relative;
 }
 
-.nav__link{
+.nav__link {
     color: white;
 }
 
-.nav__link:hover{
+.nav__link:hover {
     cursor: pointer;
     transition: 0.1s;
     transform: translateY(-2px);
@@ -64,6 +68,20 @@
 
 .nav__link:hover:after {
     display: block;
+}
+
+@media screen and (max-width: 860px) {
+    .header{
+        border-bottom: none;
+    }
+    .container {
+        display: none;
+    }
+}
+@media screen and (min-width: 860px) {
+    .mobile{
+        display: none;
+    }
 }
 
 

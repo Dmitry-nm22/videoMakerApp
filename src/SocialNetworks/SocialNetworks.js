@@ -4,6 +4,10 @@ import SocialNetwork from "./SocialNetwork";
 
 
 
+const hrefInstagram ='https://www.instagram.com/voronko__films/';
+const hrefVimeo ='https://vimeo.com/voronko';
+const hrefYouTube ='https://www.youtube.com/channel/UC04YpbXrOJx-3pLruaxd1-A';
+
 const bcColorInst = {
     backgroundColor: 'gray',
 };
@@ -22,10 +26,10 @@ const changeClass = () =>{
 function SocialNetworks() {
     return (
         <div className={s.wraper}>
-            <SocialNetwork className={'fab fa-facebook-f'}/>
-            <SocialNetwork className={'fab fa-vimeo-v'} />
-            <SocialNetwork className={'fab fa-instagram'} />
-            <SocialNetwork className={'fab fa-youtube'} />
+            <SocialNetwork className={'fab fa-facebook-f'} />
+            <SocialNetwork className={'fab fa-vimeo-v'} href={hrefVimeo}/>
+            <SocialNetwork className={'fab fa-instagram'} href={hrefInstagram} />
+            <SocialNetwork className={'fab fa-youtube'} href={hrefYouTube} />
         </div>
     );
 }

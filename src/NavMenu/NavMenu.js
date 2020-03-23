@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './NavMenu.module.css';
 import logo from '../img/logo.png';
 import { Link } from "react-scroll";
+import NavMenuMobile from "./NavMenuMobile";
 
 
 
@@ -61,6 +62,9 @@ function NavMenu() {
                             </Link>
                     </div>
                 </div>
+            </div>
+            <div className={styles.mobile}>
+                <NavMenuMobile/>
             </div>
         </header>
     );

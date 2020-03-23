@@ -3,9 +3,6 @@ import s from './Video.module.css';
 import './Style.scss'
 
 
-// className={`${styles.item} ${styles.active}`}
-
-// www.youtube.com/embed/NGICM5uhRbQ
 function VideoPortfolio(props) {
     return (
         <body className={s.wraper}>

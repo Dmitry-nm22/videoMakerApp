@@ -16,7 +16,7 @@ function Servic(props) {
 
             <div className={s.inner} >
                 <h1>{props.title}</h1>
-                <p>{props.text}</p>
+                <div>{props.text}</div>
                 <Link
                     className={styles.nav__link}
                     activeClass="active"

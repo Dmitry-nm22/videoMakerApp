@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import s from './Portfolio.module.css';
 import VideoPortfolio from "./Video";
-import {Link} from "react-scroll";
-import styles from "../NavMenu/NavMenu.module.css";
+
 
 
 //id's videos from vimeo.com
@@ -21,7 +20,9 @@ const idTraipl = 'RGJjXeq6Azg'
 class Portfolio extends Component {
 
     state = {
-        isOpen: false
+        isOpen: false,
+        titleOpen: 'смотреть все',
+        titleClose: 'свернуть'
     }
 
 
@@ -32,6 +33,9 @@ class Portfolio extends Component {
     }
 
     render() {
+
+        let title = this.state.isOpen ? this.state.titleClose  :  this.state.titleOpen
+
         return (
             <div className={s.wraper} id="portfolio">
                 <h1>Портфолио</h1>
@@ -60,7 +64,7 @@ class Portfolio extends Component {
                       </div>
                   </div>
                 }
-                    <button className={s.button} onClick={this.changeView}>Смотреть все</button>
+                    <button className={s.button} onClick={this.changeView}>{title}</button>
             </div>
         );
     }

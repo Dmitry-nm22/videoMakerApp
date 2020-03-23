@@ -21,7 +21,7 @@ function About() {
             </div>
             <div>
                 <div className={s.decription}>
-                    Здравствуйте и добро пожаловать в HayotFilms. Меня зовут Станислав Воронко,
+                    Здравствуйте и добро пожаловать в VoronkoFilms. Меня зовут Станислав Воронко,
                     и я являюсь основателем и главным видеографом VoronkoFilms.<br/>
                 </div>
                 <div className={s.decription}>

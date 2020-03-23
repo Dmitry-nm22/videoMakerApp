@@ -1,5 +1,5 @@
 .wraper{
-    height: 200px;
+    min-height: 200px;
     background-color: #56bdbd;
     display: flex;
     justify-content: space-between;
@@ -29,4 +29,20 @@
     color: #56bdbd;
     transition: 0.35s;
     transform: translateY(-10px);
+}
+
+@media screen and (max-width: 860px) {
+    .wraper{
+        min-height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .wraper h1{
+        padding: 0 0 0 28px;
+    }
+    .wraper button{
+        margin-bottom: 40px;
+    }
 }

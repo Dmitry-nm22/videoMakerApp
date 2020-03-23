@@ -7,8 +7,8 @@ body {
     max-height: 100vh;
     overflow: hidden;
     position: relative;
-    background: url("../img/cover.jpg") center no-repeat;
-    background-size: cover;
+    /*background: url("../img/cover.jpg") center no-repeat;*/
+    /*background-size: cover;*/
 }
 
 .intro:after {
@@ -67,6 +67,7 @@ body {
 }
 
 .video {
+    height: 100vh;
     position: relative;
     z-index: 1;
     padding-bottom: 56.25%;
@@ -99,4 +100,18 @@ body {
     color: black;
     transition: 0.5s;
     transform: translateY(-10px);
+}
+
+
+@media screen and (max-width: 860px) {
+    .video__media {
+        height: 100%;
+
+    }
+    .container h1,h2{
+        font-size: 20px;
+    }
+    .intro__titleTwo{
+        padding-bottom: 230px;
+    }
 }
