@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "663007661c9b856989a9403a89263c04",
+    "revision": "3c2291eec6a6ab4fa066edd62a79be22",
     "url": "/videoMakerApp/index.html"
   },
   {
-    "revision": "03c43919e961da8931f6",
-    "url": "/videoMakerApp/static/css/main.9d5a611a.chunk.css"
+    "revision": "43deac9a4ede5734dec2",
+    "url": "/videoMakerApp/static/css/main.39b0ec65.chunk.css"
   },
   {
-    "revision": "7d806d61ad44b49418d1",
-    "url": "/videoMakerApp/static/js/2.2bc95913.chunk.js"
+    "revision": "133080a914adcdc231d4",
+    "url": "/videoMakerApp/static/js/2.e2ce2a9a.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/videoMakerApp/static/js/2.2bc95913.chunk.js.LICENSE"
+    "url": "/videoMakerApp/static/js/2.e2ce2a9a.chunk.js.LICENSE"
   },
   {
-    "revision": "03c43919e961da8931f6",
-    "url": "/videoMakerApp/static/js/main.5a38f91a.chunk.js"
+    "revision": "43deac9a4ede5734dec2",
+    "url": "/videoMakerApp/static/js/main.8444c6cc.chunk.js"
   },
   {
     "revision": "0386d7d88c04a7b8018f",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a16f1df8a0375d2ad277085d7e3637ed",
     "url": "/videoMakerApp/static/media/clip.a16f1df8.jpg"
-  },
-  {
-    "revision": "561b5be0e582e13b25081068e07f918f",
-    "url": "/videoMakerApp/static/media/cover.561b5be0.jpg"
   },
   {
     "revision": "59901e97a95d6362150b10e9c02b94c8",
