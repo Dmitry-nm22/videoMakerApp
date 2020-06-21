@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/videoMakerApp/static/css/main.39b0ec65.chunk.css",
-    "main.js": "/videoMakerApp/static/js/main.8444c6cc.chunk.js",
-    "main.js.map": "/videoMakerApp/static/js/main.8444c6cc.chunk.js.map",
-    "runtime-main.js": "/videoMakerApp/static/js/runtime-main.36930afb.js",
-    "runtime-main.js.map": "/videoMakerApp/static/js/runtime-main.36930afb.js.map",
-    "static/js/2.e2ce2a9a.chunk.js": "/videoMakerApp/static/js/2.e2ce2a9a.chunk.js",
-    "static/js/2.e2ce2a9a.chunk.js.map": "/videoMakerApp/static/js/2.e2ce2a9a.chunk.js.map",
-    "index.html": "/videoMakerApp/index.html",
-    "precache-manifest.686dc71aeb8b38ef8819ef87e6d19078.js": "/videoMakerApp/precache-manifest.686dc71aeb8b38ef8819ef87e6d19078.js",
-    "service-worker.js": "/videoMakerApp/service-worker.js",
-    "static/css/main.39b0ec65.chunk.css.map": "/videoMakerApp/static/css/main.39b0ec65.chunk.css.map",
-    "static/js/2.e2ce2a9a.chunk.js.LICENSE": "/videoMakerApp/static/js/2.e2ce2a9a.chunk.js.LICENSE",
-    "static/media/Mee.jpg": "/videoMakerApp/static/media/Mee.13694976.jpg",
-    "static/media/clip.jpg": "/videoMakerApp/static/media/clip.a16f1df8.jpg",
-    "static/media/interview.jpg": "/videoMakerApp/static/media/interview.59901e97.jpg",
-    "static/media/ivent.jpg": "/videoMakerApp/static/media/ivent.513f6f60.jpg",
-    "static/media/marketing.jpg": "/videoMakerApp/static/media/marketing.1e06b98c.jpg",
-    "static/media/service1.jpg": "/videoMakerApp/static/media/service1.40459fb3.jpg",
-    "static/media/video.mp4": "/videoMakerApp/static/media/video.0f1e9703.mp4",
-    "static/media/wedding.jpg": "/videoMakerApp/static/media/wedding.f96a6c9b.jpg"
+    "main.css": "/static/css/main.39b0ec65.chunk.css",
+    "main.js": "/static/js/main.a67d4606.chunk.js",
+    "main.js.map": "/static/js/main.a67d4606.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c046a457.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c046a457.js.map",
+    "static/js/2.e2ce2a9a.chunk.js": "/static/js/2.e2ce2a9a.chunk.js",
+    "static/js/2.e2ce2a9a.chunk.js.map": "/static/js/2.e2ce2a9a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a6363326caade93213421b29bd9e9ba8.js": "/precache-manifest.a6363326caade93213421b29bd9e9ba8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.39b0ec65.chunk.css.map": "/static/css/main.39b0ec65.chunk.css.map",
+    "static/js/2.e2ce2a9a.chunk.js.LICENSE": "/static/js/2.e2ce2a9a.chunk.js.LICENSE",
+    "static/media/Mee.jpg": "/static/media/Mee.13694976.jpg",
+    "static/media/clip.jpg": "/static/media/clip.a16f1df8.jpg",
+    "static/media/interview.jpg": "/static/media/interview.59901e97.jpg",
+    "static/media/ivent.jpg": "/static/media/ivent.513f6f60.jpg",
+    "static/media/marketing.jpg": "/static/media/marketing.1e06b98c.jpg",
+    "static/media/service1.jpg": "/static/media/service1.40459fb3.jpg",
+    "static/media/video.mp4": "/static/media/video.0f1e9703.mp4",
+    "static/media/wedding.jpg": "/static/media/wedding.f96a6c9b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.36930afb.js",
+    "static/js/runtime-main.c046a457.js",
     "static/js/2.e2ce2a9a.chunk.js",
     "static/css/main.39b0ec65.chunk.css",
-    "static/js/main.8444c6cc.chunk.js"
+    "static/js/main.a67d4606.chunk.js"
   ]
 }
