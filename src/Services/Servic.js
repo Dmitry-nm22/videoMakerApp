@@ -26,7 +26,7 @@ function Servic(props) {
                     offset={0}
                     duration={1000}
                 >
-                    <button>Связаться с нами</button>
+
                 </Link>
             </div>
         </div>

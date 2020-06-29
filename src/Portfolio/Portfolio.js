@@ -4,7 +4,7 @@ import VideoPortfolio from "./Video";
 
 
 
-//id's videos from vimeo.com
+//id video
 const idVelo = 'NGICM5uhRbQ'
 const idSlavyanka = 'LXl2efww0ag'
 const idSlavyankaautum = '6d3sDYNSu-g'

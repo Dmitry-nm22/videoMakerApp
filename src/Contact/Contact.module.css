@@ -56,6 +56,8 @@
     outline: none;
 }
 
+
+
 .contact{
     width: 50%;
 }
@@ -75,7 +77,10 @@
 }
 .aboutInner span{
     margin: 10px 0px;
-
+}
+.aboutInner a{
+    text-decoration: none;
+    color: black;
 }
 
 .aboutInnerTwo{

@@ -12,6 +12,30 @@
 .wraper  p{
     font-family: 'Baloo Chettan 2', cursive;
 }
+.wraper button{
+    width: 200px;
+    height: 30px;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    background: none;
+    outline: none;
+    border: 1px solid #56bdbd;
+    color: #56bdbd;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+.wraper button:hover{
+    cursor: pointer;
+    background: #56bdbd;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    transform: translateY(-10px);
+    box-shadow: -1px 9px 28px 1px rgba(86,189,189,0.44);
+    -webkit-box-shadow: -1px 9px 28px 1px rgba(86,189,189,0.44);
+    -moz-box-shadow: -1px 9px 28px 1px rgba(86,189,189,0.44);
+}
 .inner{
     padding: 60px 40px 20px;
     display: flex;

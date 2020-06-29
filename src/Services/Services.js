@@ -9,6 +9,8 @@ import interview from "../img/interview.jpg";
 import ivent from "../img/ivent.jpg";
 import clip from "../img/clip.jpg";
 import marketing from "../img/marketing.jpg";
+import {Link} from "react-scroll";
+import styles from "../NavMenu/NavMenu.module.css";
 
 
 //title
@@ -63,6 +65,18 @@ function Services() {
                 <Servic title={titleFive} text={textFive} img={wedding}/>
                 <Servic title={titleSix} text={textSix} img={marketing}/>
             </div>
+            <Link
+
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+            >
+                <button>Свяжитесь с нами</button>
+            </Link>
+
         </div>
     );
 }
