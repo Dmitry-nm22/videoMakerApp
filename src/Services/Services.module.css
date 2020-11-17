@@ -5,17 +5,17 @@
     background-color:  #f3f3f3
 }
 .wraper h1{
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Questrial', sans-serif;
     margin: 0;
     padding-top: 80px;
 }
 .wraper  p{
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Questrial', sans-serif;
 }
 .wraper button{
     width: 200px;
     height: 30px;
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Questrial', sans-serif;
     font-weight: bold;
     font-size: 15px;
     background: none;

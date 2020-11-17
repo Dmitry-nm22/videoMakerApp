@@ -5,8 +5,9 @@
     align-items: center;
 }
 .inner img{
-    width: 200px;
-    height: 200px;
+    width: 550px;
+    height: 180px;
+    opacity: 50%;
 }
 .text{
     display: flex;
@@ -18,6 +19,9 @@
 @media screen and (max-width: 860px) {
 
     .text{
+        display: none;
+    }
+    .inner{
         display: none;
     }
 }

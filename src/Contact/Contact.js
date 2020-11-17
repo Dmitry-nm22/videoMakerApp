@@ -1,38 +1,82 @@
 import React from 'react';
 import s from './Contact.module.css'
+import { Contact1 } from '../TranslatedText/TranslatedText'
+import { useSelector } from 'react-redux'
 
 
 
 
 function Contact() {
+
+    const lang = useSelector((state) => state.Translate.setLanguage)
+
+    let title = (lang === 'ru') ? Contact1.message[0] :
+        (lang === 'eng') ? Contact1.message[1] :
+            (lang === 'cz') ? Contact1.message[2] :
+                '';
+
+    let name = (lang === 'ru') ? Contact1.descMessage.name[0] :
+        (lang === 'eng') ? Contact1.descMessage.name[1] :
+            (lang === 'cz') ? Contact1.descMessage.name[2] :
+                '';
+
+    let tel = (lang === 'ru') ? Contact1.descMessage.tel[0] :
+        (lang === 'eng') ? Contact1.descMessage.tel[1] :
+            (lang === 'cz') ? Contact1.descMessage.tel[2] :
+                '';
+
+    let descmes = (lang === 'ru') ? Contact1.descMessage.desc[0] :
+        (lang === 'eng') ? Contact1.descMessage.desc[1] :
+            (lang === 'cz') ? Contact1.descMessage.desc[2] :
+                '';
+
+
+    let contactTitle = (lang === 'ru') ? Contact1.contact.name[0] :
+        (lang === 'eng') ? Contact1.contact.name[1] :
+            (lang === 'cz') ? Contact1.contact.name[2] :
+                '';
+
+
+    let ContactDesc = (lang === 'ru') ? Contact1.contact.desc[0] :
+        (lang === 'eng') ? Contact1.contact.desc[1] :
+            (lang === 'cz') ? Contact1.contact.desc[2] :
+                '';
+
+    let contact = (lang === 'ru') ? Contact1.contact.contact[0] :
+        (lang === 'eng') ? Contact1.contact.contact[1] :
+            (lang === 'cz') ? Contact1.contact.contact[2] :
+                '';
+    let btn = (lang === 'ru') ? Contact1.descMessage.btn[0] :
+        (lang === 'eng') ? Contact1.descMessage.btn[1] :
+            (lang === 'cz') ? Contact1.descMessage.btn[2] :
+                '';
+
     return (
         <div className={s.wraper} id='contact'>
             <form className={s.contactInfo}
-                  action="https://formspree.io/xeqrlvpd"
-                  method="POST"
+                action="https://formspree.io/xeqrlvpd"
+                method="POST"
             >
 
-                <h4>ОТПРАВИТЬ СООБЩЕНИЕ</h4>
-                <input type='text' name={'name'} placeholder='Имя'/>
-                <input type='text' name={'phone'} placeholder='Ваш телефон' />
-                <textarea className={s.messageArea} name={'message'} placeholder='опищите кратко запрос'/>
-                <button type={'submit'} >Отправить</button>
+                <h4>{title}</h4>
+                <input type='text' name={'name'} placeholder={name} />
+                <input type='text' name={'phone'} placeholder={tel} />
+                <textarea className={s.messageArea} name={'message'} placeholder={descmes} />
+                <button type={'submit'} >{btn}</button>
             </form>
             <div className={s.contact}>
                 <div className={s.text}>
-                    <h4>СВЯЖИТЕСЬ С НАМИ</h4>
-                    <span className={s.title}>Если вам нужна видео продакшн студия  для работы над вашим следующим проектом, мы готовы помочь
-                        Отправьте нам сообщение, воспользовавшись формой обратной связи,
-                        или просто напишите на наш адрес электронной почты, и мы ответим в течение нескольких часов.
-                        Нам не терпится поработать с вами над вашим проектом.
+                    <h4>{contactTitle}</h4>
+                    <span className={s.title}>
+                        {ContactDesc}
                     </span>
                 </div>
                 <div className={s.about}>
                     <div className={s.aboutInner}>
-                        <h4>КОНТАКТЫ</h4>
-                        <span><i className="fas fa-phone-square-alt"/><a href="tel:+375298886385">+375 (29) 888 63 85</a> </span>
-                        <span><i className="fab fa-telegram"/> <a href="https://t.me/stasvoronko">+375 (29) 888 63 85</a></span>
-                        <span><i className="fas fa-envelope"/>voronko.films@gmail.com</span>
+                        <h4>{contact}</h4>
+                        <span className={s.spone}><i className="fas fa-phone-square-alt" /><a className={s.aone} href="tel:+420776614365">+420 776 614 365</a> </span>
+                        <span className={s.sptwo}><i className="fab fa-telegram" /> <a className={s.atwo} href="https://t.me/stasvoronko">+420 776 614 365</a></span>
+                        {/* <span><i className="fas fa-envelope"/>voronko.films@gmail.com</span> */}
                     </div>
                     {/*<div className={s.aboutInnerTwo}>*/}
                     {/*    <h4>ОТДЕЛ МАРКЕТИНГА</h4>*/}

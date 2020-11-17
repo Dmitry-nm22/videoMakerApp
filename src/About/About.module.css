@@ -11,7 +11,7 @@
     display: flex;
 }
 .title h2{
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Questrial', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -40,7 +40,7 @@
     color: rgba(0, 0, 0, 0.51);
 }
 .decription{
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Questrial', sans-serif;
     margin-top: 10px;
 }
 

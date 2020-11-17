@@ -28,6 +28,7 @@
     align-items: center;
 }
 
+
 .header__logo {
     margin-left: 14px;
     font-size: 30px;
@@ -36,8 +37,22 @@
 }
 
 .header__logo img {
-    height: 89px;
-    width: 93px;
+    height: 63px;
+    width: 300px;
+}
+
+.header__prod  {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header__prod__span {
+    color: #ffffff69
+}
+
+.vl{
+    border-left: 1px solid #ffffff6e;
+    height: 60px;
 }
 
 /*nav*/
@@ -46,7 +61,7 @@
 }
 
 .nav a {
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Questrial', sans-serif;
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;
